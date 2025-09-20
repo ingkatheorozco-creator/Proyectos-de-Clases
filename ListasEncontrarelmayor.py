@@ -15,12 +15,12 @@ cantidad=int(input("Por favor ingrese la cantidad de numeros que desea comparar 
 numeros=[];
 i=0;
 mayor=0;
+
 while i<cantidad:
     numero=int(input(f"Por favor ingrese el numero {i+1} ", ))
     numeros=numeros + [numero]
     if numeros[i]>mayor:
         mayor=numeros[i]
     i=i+1
-
 
 print("El mayor numero es ", mayor) 
