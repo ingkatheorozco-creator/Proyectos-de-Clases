@@ -7,5 +7,5 @@
 def valores ():
     ventas=[150.75,200.50,80.00,350.25,120.00]
     return sum(ventas)/len(ventas)
-           max(ventas)
+max(ventas)
 
