@@ -14,3 +14,9 @@ d1={'nombre':S1, 'edad':S2, 'peso':S3}
 df1=pd.DataFrame(d1)
 print(df1)
 
+print("\n")
+
+S4 = pd.Series([1.84,1.65,1.69,1.78], index=['id1','id2','id3','id4'])
+d2 = {'nombre':S1, 'edad':S2, 'peso':S3, 'altura':S4}
+df2=pd.DataFrame(d2)
+print(df2)
